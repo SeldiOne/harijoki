@@ -72,7 +72,6 @@
         .content {
             display: none;
             padding: 3rem;
-            background-color: #fff;
             margin: 1rem 0;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
