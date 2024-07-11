@@ -116,14 +116,7 @@
             margin-bottom: 1.5rem;
         }
 
-        .services .service {
-            background-color: #FFDC00;
-            color: #001f3f;
-            padding: 1.5rem;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 1rem;
-        }
+       
 
         .services .service h3 {
             font-size: 1.5rem;
@@ -254,7 +247,7 @@
     <section class="content" id="home">
         <h1>Hari Joki Mobile Legends</h1>
         <img src="1.jpg" alt="Beranda Image">
-        <p>Selamat datang di jasa joki Mobile Legends. <span class="highlight">Dapatkan layanan joki terbaik</span> dengan harga terjangkau!</p>
+        <p>Selamat datang di jasa joki Mobile Legends. Dapatkan layanan joki terbaik dengan harga terjangkau!</p>
         <a href="#" class="button" onclick="showContent('services')">Lihat Paket Joki</a>
     </section>
 
