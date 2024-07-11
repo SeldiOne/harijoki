@@ -36,7 +36,7 @@
         }
 
         .navbar a {
-            color : 	#FFDC00;
+            color : 	#FFF;
             text-decoration: none;
             padding: 0.5rem 1rem;
             font-family: 'Poppins', sans-serif;
