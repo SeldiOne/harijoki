@@ -1,9 +1,11 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hari Joki Mobile Legends</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -16,7 +18,7 @@
         }
 
         .navbar {
-            background-image: url('G.jpg'); /* Ganti dengan path gambar dari folder Anda */
+            background-image: url('G.jpg');
             background-size: cover;
             padding: 1rem;
             display: flex;
@@ -36,7 +38,7 @@
         }
 
         .navbar a {
-            color : #FFF;
+            color: #f4f4f4;
             text-decoration: none;
             padding: 0.5rem 1rem;
             font-family: 'Poppins', sans-serif;
@@ -77,28 +79,29 @@
             font-family: 'Poppins', sans-serif;
             flex: 1;
             opacity: 0;
-            transition: opacity 0.5s ease;
+            transition: opacity 0.5s ease, transform 0.5s ease;
+            transform: translateY(10px);
         }
 
         .content.active {
             display: block;
             opacity: 1;
+            transform: translateY(0);
+        }
+
+        .content h1, .content h2 {
+            color: #001f3f;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
         }
 
         .content h1 {
             font-size: 2.5rem;
-            color: #001f3f;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 1rem;
         }
 
         .content h2 {
             font-size: 2rem;
-            color: #001f3f;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 1rem;
         }
 
         .content p {
@@ -120,7 +123,6 @@
             padding: 1.5rem;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            font-family: 'Poppins', sans-serif;
             margin-bottom: 1rem;
         }
 
@@ -139,7 +141,6 @@
             color: #FFDC00;
             text-align: center;
             padding: 1rem 0;
-            font-family: 'Poppins', sans-serif;
             margin-top: auto;
         }
 
@@ -166,7 +167,6 @@
             border: 2px solid #FFDC00;
         }
 
-        /* Media Queries for responsive design */
         @media (max-width: 768px) {
             .navbar {
                 flex-direction: column;
@@ -279,7 +279,7 @@
     <section class="content" id="contact">
         <h2>Kontak</h2>
         <img src="3.jpg" alt="Kontak Image">
-        <p>Hubungi kami melalui email di <a href=":hariseldi666@gmail.com">hariseldi@gmail.com</a> atau melalui telepon/WhatsApp di <a href=":+6281211117017">+62 812 111 17017</a>. Kami siap membantu Anda kapan saja.</p>
+        <p>Hubungi kami melalui email di <a href="mailto:hariseldi666@gmail.com"><i class="fas fa-envelope"></i> hariseldi@gmail.com</a> atau melalui telepon/WhatsApp di <a href="tel:+6281211117017"><i class="fas fa-phone-alt"></i> +62 812 111 17017</a>. Kami siap membantu Anda kapan saja.</p>
     </section>
 
     <footer class="footer">
@@ -297,7 +297,6 @@
             activeContent.classList.add('active');
         }
 
-        // Default to show home section
         showContent('home');
     </script>
 </body>
