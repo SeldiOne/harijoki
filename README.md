@@ -48,7 +48,7 @@
         }
 
         .navbar a:hover {
-            color: #FFDC00;
+            color: #001f3f;
         }
 
         .navbar a::after {
